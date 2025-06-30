@@ -1,10 +1,9 @@
-import React from 'react';
+'use client';
 
-export default function UserIdPage() {
+export default function UserHomePage() {
   return (
-    <div>
-      <h1>User ID Page</h1>
-      <p>This is a placeholder for the dynamic user page.</p>
-    </div>
+    <section className="">
+      <p className="">Welcome to Cinestar!</p>
+    </section>
   );
 }
