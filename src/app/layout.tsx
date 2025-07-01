@@ -1,5 +1,7 @@
 // src/app/layout.tsx
 import './globals.css';
+import { Header } from '@/components/shared/header/header';
+import { SubHeader } from "@/components/shared/header/subheader";
 
 export default function RootLayout({
   children,
@@ -9,7 +11,8 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        header nek
+        <Header></Header>
+        <SubHeader></SubHeader>
         {children}
       </body>
     </html>
