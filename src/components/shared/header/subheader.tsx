@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export function SubHeader() {
   return (
-    <div className="w-full bg-white border-b">
+    <div className="hidden md:flex w-full bg-white border-b">
       <div className="w-full max-w-[1200px] mx-auto px-4 h-10 flex items-center justify-between text-sm text-muted-foreground">
         
         <div className="flex items-center gap-2">
