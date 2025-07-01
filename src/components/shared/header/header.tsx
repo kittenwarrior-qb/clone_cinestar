@@ -33,14 +33,14 @@ export function Header() {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <Input
               placeholder="Tìm phim, rạp, suất chiếu..."
-              className="pl-9 h-10 border border-gray-300 rounded-md"
+              className="pl-9 h-10 border border-gray-300 rounded-full"
             />
           </div>
         </div>
 
 
         <div className="hidden md:flex items-center gap-2">
-          <Button variant="outline" size="sm" className="flex items-center gap-1">
+          <Button variant="ghost" size="sm" className="flex items-center gap-1">
             <User className="w-4 h-4" />
             Đăng nhập
           </Button>

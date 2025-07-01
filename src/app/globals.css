@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
+
+@theme {
+  --font-anton: "Anton", sans-serif;
+  --font-josefin: "Josefin", sans-serif;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("../assets/fonts/Anton/Anton-Regular.ttf") format(".ttf");
+}
+
+body {
+  font-family:  "Anton", sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
