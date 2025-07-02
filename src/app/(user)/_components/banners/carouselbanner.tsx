@@ -32,7 +32,7 @@ export function CarouselBanner() {
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => (
             <CarouselItem key={index} className="w-full">
-              <div className="h-[300px] bg-yellow-300 rounded-xl flex items-center justify-center text-white text-5xl font-bold shadow-md">
+              <div className="h-[360px] bg-gray-400 rounded-xl flex items-center justify-center text-white text-5xl font-bold shadow-md">
                 Banner {index + 1}
               </div>
             </CarouselItem>

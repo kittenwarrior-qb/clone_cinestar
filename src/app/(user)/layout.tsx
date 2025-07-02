@@ -1,4 +1,4 @@
-import './globals.css';
+import '../globals.css';
 import { Header } from '@/components/shared/header/header';
 import { SubHeader } from "@/components/shared/header/subheader";
 
